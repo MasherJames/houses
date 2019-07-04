@@ -1,24 +1,37 @@
 {
-  "name": "houses",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/preset-env": "^7.4.5",
-    "eslint": "^6.0.1",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.18.0"
-  },
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.0.0",
-    "express": "^4.17.1",
-    "morgan": "^1.9.1"
-  }
+    "name": "houses",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --exec babel-node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/preset-env": "^7.4.5",
+        "eslint": "^6.0.1",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.18.0",
+        "nodemon": "^1.19.1"
+    },
+    "dependencies": {
+        "@babel/core": "^7.4.5",
+        "@babel/node": "^7.4.5",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "dotenv": "^8.0.0",
+        "express": "^4.17.1",
+        "joi": "^14.3.1",
+        "jsonwebtoken": "^8.5.1",
+        "mocha": "^6.1.4",
+        "moment": "^2.24.0",
+        "morgan": "^1.9.1",
+        "uuid": "^3.3.2"
+    }
 }
