@@ -6,6 +6,7 @@ module.exports = {
     rules: {
         "linebreak-style": 0,
         "indent": ["error", 4],
-        'max-len': ["error", { "code": 150 }]
+        'max-len': ["error", { "code": 150 }],
+        "prefer-destructuring": ["error", { "object": true, "array": false }]
     },
 };

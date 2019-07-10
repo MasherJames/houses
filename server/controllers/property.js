@@ -14,7 +14,7 @@ const propertyController = {
                 type,
                 imageurl,
             } = req.body;
-            const newProperty = new Property('owner', price, state, city, address, type, imageurl);
+            const newProperty = new Property(req.user.id, price, state, city, address, type, imageurl);
 
             properties.push(newProperty);
             return res.status(201).json({
@@ -173,7 +173,7 @@ const propertyController = {
     getAllPropertiesWithSpecificType: (req, res) => {
         // destructure field values from request.body
         try {
-            const specifictypeproperties = properties.filter(property => property.type !== req.query.type);
+            const specifictypeproperties = properties.filter(property => property.type === req.query.type);
 
             if (!specifictypeproperties.length) {
                 return res.status(404).json({
@@ -181,7 +181,6 @@ const propertyController = {
                     error: 'There are properties of this type now',
                 });
             }
-
             return res.status(200).json({
                 status: 'succes',
                 data: specifictypeproperties,
