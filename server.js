@@ -1,5 +1,5 @@
 import http from 'http';
-import app from './server/index';
+import { app } from './server/index';
 
 const port = process.env.PORT;
 

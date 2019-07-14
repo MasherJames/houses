@@ -1,6 +1,7 @@
 import uuid from 'uuid';
 
 import { users } from '../data/store';
+import { pool } from '../index';
 
 export default class User {
     constructor(email, firstName, lastName, password, phoneNumber, address, isAdmin = false) {

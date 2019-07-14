@@ -1,0 +1,10 @@
+{"name":"error","length":96,"severity":"ERROR","code":"42601","position":"423","file":"scan.l","line":"1134","routine":"scanner_yyerror","level":"error","service":"user-service"}
+{"name":"error","length":91,"severity":"ERROR","code":"42601","position":"830","file":"scan.l","line":"1134","routine":"scanner_yyerror","level":"error","service":"user-service"}
+{"name":"error","length":91,"severity":"ERROR","code":"42601","position":"830","file":"scan.l","line":"1134","routine":"scanner_yyerror","level":"error","service":"user-service"}
+{"message":{"command":"CREATE","rowCount":null,"oid":null,"rows":[],"fields":[],"_parsers":[],"_types":{"_types":{"arrayParser":{}},"text":{},"binary":{}},"RowCtor":null,"rowAsArray":false},"level":"error","service":"user-service"}
+{"name":"error","length":91,"severity":"ERROR","code":"42601","position":"829","file":"scan.l","line":"1134","routine":"scanner_yyerror","level":"error","service":"user-service"}
+{"name":"error","length":91,"severity":"ERROR","code":"42601","position":"742","file":"scan.l","line":"1134","routine":"scanner_yyerror","level":"error","service":"user-service"}
+{"name":"error","length":91,"severity":"ERROR","code":"42601","position":"749","file":"scan.l","line":"1134","routine":"scanner_yyerror","level":"error","service":"user-service"}
+{"name":"error","length":91,"severity":"ERROR","code":"42601","position":"741","file":"scan.l","line":"1134","routine":"scanner_yyerror","level":"error","service":"user-service"}
+{"name":"error","length":91,"severity":"ERROR","code":"42601","position":"371","file":"scan.l","line":"1134","routine":"scanner_yyerror","level":"error","service":"user-service"}
+{"message":{"command":"CREATE","rowCount":null,"oid":null,"rows":[],"fields":[],"_parsers":[],"_types":{"_types":{"arrayParser":{}},"text":{},"binary":{}},"RowCtor":null,"rowAsArray":false},"level":"error","service":"user-service"}

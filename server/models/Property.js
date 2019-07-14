@@ -7,7 +7,6 @@ export default class User {
     constructor(owner, price, state, city, address, type, imageUrl, status = 'available') {
         this.id = uuid.v4();
         this.owner = owner;
-        this.status = status;
         this.price = price;
         this.state = state;
         this.city = city;
@@ -15,6 +14,7 @@ export default class User {
         this.type = type;
         this.created_on = moment(Date.now()).format('LL');
         this.image_url = imageUrl;
+        this.status = status;
     }
 
     static getById(id) {
