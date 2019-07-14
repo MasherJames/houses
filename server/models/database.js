@@ -28,7 +28,7 @@ const createTables = () => {
         status,
         FOREIGN KEY(owner_id) REFERENCES user(id)
       )`;
-    return [users, properties];
+    return `${users}; ${properties}`;
 };
 
 const dropTables = () => {
